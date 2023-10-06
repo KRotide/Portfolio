@@ -1,0 +1,13 @@
+@mixin font-face-hk() {
+    font-family: 'Hk Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./fonts/HKGrotesk-Regular.woff') format('woff');
+}
+
+@mixin font-face-jost() {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./fonts/Jost-Regular.ttf') format('woff');
+}

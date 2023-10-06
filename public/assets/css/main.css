@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%; /* (16/10)*100 = 62.5% => 1rem = 10px */
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+@media (max-width: 1000px) {
+  html {
+    font-size: 52%;
+  }
+}
+
+body {
+  font-size: 1.8rem;
+  font-family: "Hk Grotesk", sans-serif;
+  font-weight: 400;
+  color: rgba(229, 229, 230, 0.8549019608);
+  line-height: 1.7;
+  background: #000;
+  overflow-x: hidden;
+}
+
+/*# sourceMappingURL=main.css.map */

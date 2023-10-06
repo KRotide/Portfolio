@@ -1,0 +1,28 @@
+@import "./utils/mixins";
+@import "./utils/variables";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%; /* (16/10)*100 = 62.5% => 1rem = 10px */
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+    @media(max-width: 1000px) {
+        font-size: 52%;
+    }
+}
+
+body {
+    font-size: $font-size-small;
+    font-family: $font-stack;
+    font-weight: 400;
+    color: $white-1;
+    line-height: $line-height-normal;
+    background: $black;
+    overflow-x: hidden;
+}
