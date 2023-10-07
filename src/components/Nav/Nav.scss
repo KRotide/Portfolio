@@ -16,7 +16,7 @@
         padding: 0 $gutter-normal;
     }
 
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 500px) {
         padding: 0 $gutter-small;
     }
 
@@ -29,7 +29,7 @@
             justify-content: center;
         }
 
-        @media screen and (max-width: 300px) {
+        @media screen and (max-width: 410px) {
             font-size: $font-size-small;
         }
 
@@ -41,7 +41,7 @@
         &__item:not(:last-child) {
             margin-right: $gutter-medium;
 
-            @media screen and (max-width: 400px) {
+            @media screen and (max-width: 500px) {
                 margin-right: $gutter-normal;
             }
         }
@@ -62,7 +62,7 @@
                 right: 100%;
                 display: inline-block;
                 height: 1rem;
-                background: var(--white);
+                background: $white;
                 transition: all 0.25s cubic-bezier(1, 0.68, 0.16, 0.9);
             }
 

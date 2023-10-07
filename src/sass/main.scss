@@ -1,5 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk&family=Jost&display=swap');
+
 @import "./utils/mixins";
 @import "./utils/variables";
+
+@import "../components/Header/Header.scss";
+@import "../components/Nav/Nav.scss";
+@import "../components/Banner/Banner.scss";
 
 * {
     margin: 0;
@@ -19,10 +25,84 @@ html {
 
 body {
     font-size: $font-size-small;
-    font-family: $font-stack;
+    font-family: 'Hk Grotesk', sans-serif;
     font-weight: 400;
     color: $white-1;
     line-height: $line-height-normal;
     background: $black;
     overflow-x: hidden;
+}
+
+a {
+    color: $white;
+    font-weight: 400;
+    font-family: 'Jost', sans-serif;
+    transition: all .2s;
+    outline: 2px solid transparent;
+}
+
+::-moz-focus-inner {
+    border: 0;
+}
+
+button:focus,
+a:focus {
+    outline: 2px solid $pink;
+}
+
+body:not(.user-is-tabbing) button:focus,
+body:not(.user-is-tabbing) a:focus {
+    outline: none;
+}
+
+.link:hover {
+    color: $pink;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+    line-height: $line-height-small;
+    color: $white;
+}
+
+h2 {
+    font-size: $font-size-large;
+    margin-bottom: $gutter-medium;
+}
+
+h2::after {
+    content: '';
+    display: block;
+    height: 2px;
+    width: 10rem;
+    background: $pink;
+    margin: $gutter-small 0;
+}
+
+h3 {
+    font-size: $font-size-medium-1;
+    margin-bottom: $gutter-small;
+}
+
+@media screen and (max-width: 500px) {
+    h2 {
+        font-size: $font-size-medium-1;
+    }
+
+    h3 {
+        font-size: $font-size-medium;
+    }
+}
+
+p {
+    margin: $gutter-small-1 0;
+}
+
+@media screen and (max-width: 900px) {
+    p { 
+        max-width: $container-small-width;
+    }
 }
