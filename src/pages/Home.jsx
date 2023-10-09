@@ -1,8 +1,14 @@
 import Header from "../components/Header/Header";
+import Portfolio from "../components/Portfolio/Portfolio";
 
 function Home() {
     return (
-        <Header />
+        <>
+            <Header />
+            <main>
+                <Portfolio />
+            </main>
+        </>
     );
 }
 

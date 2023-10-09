@@ -1,0 +1,107 @@
+@import "../../sass/utils/variables";
+
+.portfolio {
+
+    &__project {
+        display: flex;
+        align-items: center;
+
+        @media screen and (max-width: 900px) {
+            align-items: initial;
+            flex-direction: column-reverse;
+        }
+
+        &:not(:last-child) {
+            margin-bottom: 25rem;
+
+            @media screen and (max-width: 500px) {
+                margin-bottom: 20rem;
+            }
+        }
+
+        &__text {
+            flex: 0 0 30%;
+
+            &__list {
+                list-style-position: inside;
+                margin-bottom: $gutter-normal;
+            }
+
+            &__links {
+                display: flex;
+                align-items: center;
+
+                &__text {
+                    position: relative;
+                    display: inline-block;
+                    padding: .6rem;
+                    color: inherit;
+                    text-decoration: none;
+                    border-bottom: 1px solid $pink;
+
+                    &::after {
+                        content: '';
+                        display: block;
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        right: 100%;
+                        background: $white;
+                        height: 100%;
+                        z-index: -1;
+                        transition: all 0.2s cubic-bezier(1, 0.68, 0.16, 0.9);
+                    }
+
+                    &:focus {
+                        outline: none;
+
+                        &::after {
+                            right: 0;
+                            background: $pink;
+                        }
+                    }
+
+                    &:hover::after{
+                        right: 0;
+                        background: $pink;
+                    }
+
+                    & span {
+                        padding-left: 1rem;
+                        font-family: sans-serif;
+                    }
+                }
+
+                &__code {
+                    display: block;
+                    height: 3rem;
+                    margin-left: $gutter-normal;
+                    transition: all .3s;
+
+                    @media screen and (max-width: 900px) {
+                        height: 4rem;
+                    }
+
+                    &:hover {
+                        transform: scale(1.2);
+                    }
+                }
+            }
+        }
+
+        &__picture {
+            margin-bottom: $gutter-normal;
+            border-radius: 3rem;
+            box-shadow: rgba(255, 255, 255, 0.45) 0px 25px 20px -20px;
+
+            @media screen and (min-width: 901px) {
+                flex: 1;
+                margin: 0 0 0 10rem;
+            }
+
+            &__data {
+                border-radius: 3rem;
+            }
+        }
+    }
+}
