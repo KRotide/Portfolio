@@ -235,6 +235,27 @@
   border-radius: 3rem;
 }
 
+.skills__logos {
+  display: flex;
+  justify-content: space-between;
+  filter: invert(100%) grayscale(100%) opacity(0.8);
+}
+@media screen and (max-width: 1240px) {
+  .skills__logos {
+    overflow-x: scroll;
+    padding: 3rem;
+  }
+}
+.skills__logos__logo {
+  height: 6.5rem;
+  max-width: 18rem;
+}
+@media screen and (max-width: 1240px) {
+  .skills__logos__logo:not(:last-of-type) {
+    margin-right: 6rem;
+  }
+}
+
 /* --------------------------------------- */
 /* ----- Basic Setup ----- */
 /* --------------------------------------- */

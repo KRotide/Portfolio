@@ -1,5 +1,6 @@
 import Header from "../components/Header/Header";
 import Portfolio from "../components/Portfolio/Portfolio";
+import Skills from "../components/Skills/skills";
 
 function Home() {
     return (
@@ -7,6 +8,7 @@ function Home() {
             <Header />
             <main>
                 <Portfolio />
+                <Skills />
             </main>
         </>
     );

@@ -1,0 +1,80 @@
+[
+    {
+        "id": "0",
+        "title": "HTML",
+        "description": "HTML logo",
+        "logo": "htmlLogo.webp"
+    },
+    {
+        "id": "1",
+        "title": "CSS",
+        "description": "CSS logo",
+        "logo": "cssLogo.webp"
+    },
+    {
+        "id": "2",
+        "title": "JavaScript",
+        "description": "JavaScript logo",
+        "logo": "JSLogo.webp"
+    },
+    {
+        "id": "3",
+        "title": "React.js",
+        "description": "React logo",
+        "logo": "reactLogo.webp"
+    },
+    {
+        "id": "4",
+        "title": "Redux",
+        "description": "Redux logo",
+        "logo": "reduxLogo.webp"
+    },
+    {
+        "id": "5",
+        "title": "Node.js",
+        "description": "Node logo",
+        "logo": "nodeLogo.webp"
+    },
+    {
+        "id": "6",
+        "title": "Sass",
+        "description": "Sass logo",
+        "logo": "sassLogo.webp"
+    },
+    {
+        "id": "7",
+        "title": "Responsive design",
+        "description": "Responsive logo",
+        "logo": "responsiveLogo.webp"
+    },
+    {
+        "id": "8",
+        "title": "CSS Grid",
+        "description": "CSS Grid logo",
+        "logo": "cssGridLogo.png"
+    },
+    {
+        "id": "9",
+        "title": "Flexbox",
+        "description": "Flexbox logo",
+        "logo": "flexboxLogo.webp"
+    },
+    {
+        "id": "10",
+        "title": "API",
+        "description": "API logo",
+        "logo": "apiLogo.webp"
+    },
+    {
+        "id": "11",
+        "title": "SEO",
+        "description": "SEO logo",
+        "logo": "seoLogo.webp"
+    },
+    {
+        "id": "12",
+        "title": "Gestion de projet agile",
+        "description": "Gestion logo",
+        "logo": "gestionLogo.webp"
+    }
+]
