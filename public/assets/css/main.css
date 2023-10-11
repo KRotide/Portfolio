@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk&family=Jost&display=swap");
 .header {
-  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4)), url("../../assets/images/background.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4)), url("../../assets/images/background.png");
   height: 100vh;
   background-size: cover;
   background-position: center;
@@ -236,26 +236,100 @@
 }
 
 .skills__logos {
-  display: flex;
-  justify-content: space-between;
-  filter: invert(100%) grayscale(100%) opacity(0.8);
+  display: grid;
+  grid-template-columns: repeat(4, 23.1%);
+  gap: 3rem;
+}
+@media screen and (max-width: 1340px) {
+  .skills__logos {
+    grid-template-columns: repeat(4, 22.95%);
+  }
 }
 @media screen and (max-width: 1240px) {
   .skills__logos {
-    overflow-x: scroll;
-    padding: 3rem;
+    grid-template-columns: repeat(4, 22.7%);
   }
 }
-.skills__logos__logo {
+@media screen and (max-width: 1100px) {
+  .skills__logos {
+    grid-template-columns: repeat(4, 22.6%);
+  }
+}
+@media screen and (max-width: 1000px) {
+  .skills__logos {
+    grid-template-columns: repeat(4, 22.85%);
+  }
+}
+@media screen and (max-width: 850px) {
+  .skills__logos {
+    grid-template-columns: repeat(4, 22.4%);
+  }
+}
+@media screen and (max-width: 785px) {
+  .skills__logos {
+    grid-template-columns: repeat(3, 30.8%);
+  }
+}
+@media screen and (max-width: 550px) {
+  .skills__logos {
+    grid-template-columns: repeat(3, 29.8%);
+  }
+}
+@media screen and (max-width: 550px) {
+  .skills__logos {
+    grid-template-columns: repeat(2, 47%);
+  }
+}
+@media screen and (max-width: 390px) {
+  .skills__logos {
+    grid-template-columns: repeat(2, 46%);
+  }
+}
+.skills__logos__skill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.skills__logos__skill__logo {
   height: 6.5rem;
-  max-width: 18rem;
+  max-width: 14rem;
 }
 @media screen and (max-width: 1240px) {
-  .skills__logos__logo:not(:last-of-type) {
+  .skills__logos__skill__logo:not(:last-of-type) {
     margin-right: 6rem;
   }
 }
+.skills__logos__skill span {
+  margin-top: 0.2rem;
+  text-align: center;
+}
 
+.about__content {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+@media screen and (max-width: 900px) {
+  .about__content {
+    flex-direction: column-reverse;
+    align-items: initial;
+  }
+}
+@media screen and (max-width: 901px) {
+  .about__content__text {
+    flex: 0 0 35%;
+  }
+}
+.about__content__photo {
+  margin-bottom: 3rem;
+}
+@media screen and (max-width: 901px) {
+  .about__content__photo {
+    flex: 1;
+    margin: 0 12rem 0 0;
+  }
+}
 /* --------------------------------------- */
 /* ----- Basic Setup ----- */
 /* --------------------------------------- */

@@ -1,0 +1,76 @@
+@import "../../sass/utils/variables";
+
+.about {
+
+    &__content {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+
+        @media screen and (max-width: 900px) {
+            flex-direction: column-reverse;
+            align-items: initial;
+        }
+
+        &__text {
+
+            @media screen and (min-width: 901px) {
+                flex: 0 0 35%;
+            }
+
+            &__link {
+                position: relative;
+                display: inline-block;
+                padding: 1rem 4.2rem;
+                text-decoration: none;
+                color: inherit;
+                border: 1px solid $pink;
+                font-weight: 400;
+
+                &:focus {
+                    outline: none;
+                }
+
+                &::after {
+                    content: '';
+                    display: block;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    right: 100%;
+                    background: $white;
+                    height: 100%;
+                    z-index: -1;
+                    transition: all 0.2s cubic-bezier(1, 0.68, 0.16, 0.9);
+                }
+
+                &:hover::after,
+                &:focus::after {
+                    right: 0;
+                    background: $pink;
+                }
+            }
+        }
+
+        &__photo {
+
+            @media screen and (max-width: 901px) {
+                margin-bottom: $gutter-normal;
+            }
+
+            @media screen and (min-width: 901px) {
+                flex: 1;
+            }
+
+            &__me {
+                border-radius: 50%;
+                filter: drop-shadow(1px 1px 10px rgb(197, 197, 181)) grayscale(0%);
+                transition: 1.6s;
+
+                &:hover {
+                    filter: drop-shadow(1px 1px 10px rgb(197, 197, 181)) grayscale(100%);
+                }
+            }
+        }
+    }
+}
