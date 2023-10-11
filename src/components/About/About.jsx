@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import Me from "../../assets/images/CarolineRuiz.webp";
 
 export default function About() {

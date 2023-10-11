@@ -458,14 +458,4 @@ a {
   border: 0;
 }
 
-button:focus,
-a:focus {
-  outline: 2px solid #ff3258;
-}
-
-body:not(.user-is-tabbing) button:focus,
-body:not(.user-is-tabbing) a:focus {
-  outline: none;
-}
-
 /*# sourceMappingURL=main.css.map */

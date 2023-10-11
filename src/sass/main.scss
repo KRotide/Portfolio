@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk&family=Jost&display=swap');
 
-@import "./utils/mixins";
 @import "./utils/variables";
 
 @import "../components/Header/Header.scss";
@@ -10,6 +9,7 @@
 @import "../components/Portfolio/Portfolio.scss";
 @import "../components/Skills/skills.scss";
 @import "../components/About/About.scss";
+@import "../components/Contact/Contact.scss";
 
 /* --------------------------------------- */
 /* ----- Basic Setup ----- */
@@ -138,14 +138,4 @@ a {
 
 ::-moz-focus-inner {
     border: 0;
-}
-
-button:focus,
-a:focus {
-    outline: 2px solid $pink;
-}
-
-body:not(.user-is-tabbing) button:focus,
-body:not(.user-is-tabbing) a:focus {
-    outline: none;
 }
