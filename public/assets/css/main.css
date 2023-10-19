@@ -316,20 +316,90 @@
     align-items: initial;
   }
 }
-@media screen and (max-width: 901px) {
+@media screen and (min-width: 901px) {
   .about__content__text {
     flex: 0 0 35%;
   }
 }
-.about__content__photo {
-  margin-bottom: 3rem;
+.about__content__text__link {
+  position: relative;
+  display: inline-block;
+  padding: 1rem 4.2rem;
+  text-decoration: none;
+  color: inherit;
+  border: 1px solid #ff3258;
+  font-weight: 400;
+}
+.about__content__text__link:focus {
+  outline: none;
+}
+.about__content__text__link::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 100%;
+  background: #f0e9f2;
+  height: 100%;
+  z-index: -1;
+  transition: all 0.2s cubic-bezier(1, 0.68, 0.16, 0.9);
+}
+.about__content__text__link:hover::after, .about__content__text__link:focus::after {
+  right: 0;
+  background: #ff3258;
 }
 @media screen and (max-width: 901px) {
   .about__content__photo {
-    flex: 1;
-    margin: 0 12rem 0 0;
+    margin-bottom: 3rem;
   }
 }
+@media screen and (min-width: 901px) {
+  .about__content__photo {
+    flex: 1;
+  }
+}
+.about__content__photo__me {
+  border-radius: 50%;
+  filter: drop-shadow(1px 1px 10px rgb(197, 197, 181)) grayscale(0%);
+  transition: 1.6s;
+}
+.about__content__photo__me:hover {
+  filter: drop-shadow(1px 1px 10px rgb(197, 197, 181)) grayscale(100%);
+}
+
+.contact__info {
+  max-width: 700px;
+}
+.contact__info__link {
+  position: relative;
+  display: inline-block;
+  padding: 1rem 4.2rem;
+  text-decoration: none;
+  color: inherit;
+  border: 1px solid #ff3258;
+  font-weight: 400;
+}
+.contact__info__link:focus {
+  outline: none;
+}
+.contact__info__link::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 100%;
+  background: #f0e9f2;
+  height: 100%;
+  z-index: -1;
+  transition: all 0.2s cubic-bezier(1, 0.68, 0.16, 0.9);
+}
+.contact__info__link:hover::after, .contact__info__link:focus::after {
+  right: 0;
+  background: #ff3258;
+}
+
 .footer {
   text-align: center;
   padding: 6rem 0 3rem;
