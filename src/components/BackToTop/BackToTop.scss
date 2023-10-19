@@ -1,0 +1,29 @@
+@import "../../sass/utils/variables";
+
+.backToTop {
+    position: fixed;
+    bottom: 4rem;
+    right: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5.5rem;
+    width: 5.5rem;
+    background-color: $pink;
+    border-radius: 50%;
+    z-index: 10;
+    visibility: hidden;
+    transition: all .4s;
+
+    @media screen and (max-width: 900px) {
+        right: 2rem;
+    }
+
+    @media screen and (max-width: 500px) {
+        right: 1rem;
+    }
+
+    &__image {
+        height: 70%;
+    }
+}

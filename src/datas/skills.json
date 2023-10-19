@@ -49,30 +49,18 @@
     },
     {
         "id": "8",
-        "title": "CSS Grid",
-        "description": "CSS Grid logo",
-        "logo": "cssGridLogo.png"
-    },
-    {
-        "id": "9",
-        "title": "Flexbox",
-        "description": "Flexbox logo",
-        "logo": "flexboxLogo.webp"
-    },
-    {
-        "id": "10",
         "title": "API",
         "description": "API logo",
         "logo": "apiLogo.webp"
     },
     {
-        "id": "11",
+        "id": "9",
         "title": "SEO",
         "description": "SEO logo",
         "logo": "seoLogo.webp"
     },
     {
-        "id": "12",
+        "id": "10",
         "title": "Gestion de projet agile",
         "description": "Gestion logo",
         "logo": "gestionLogo.webp"

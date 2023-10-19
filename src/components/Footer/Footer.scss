@@ -1,0 +1,23 @@
+@import "../../sass/utils/variables";
+
+.footer {
+    text-align: center;
+    padding: $gutter-medium 0 $gutter-normal;
+
+    @media screen and (min-width: 500px) {
+        padding: $gutter-medium 0;
+    }
+
+    &__content {
+        display: flex;
+        justify-content: center;
+        padding: $gutter-normal 0;
+
+        &__link {
+
+            &__logo {
+                height: 4rem;
+            }
+        }
+    }
+}

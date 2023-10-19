@@ -4,7 +4,7 @@ import Banner from "../Banner/Banner";
 export default function Header() {
 
     return (
-        <header className="header">
+        <header className="header" id="top">
             <Nav />
             <Banner />
         </header>

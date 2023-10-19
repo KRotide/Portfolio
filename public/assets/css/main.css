@@ -330,6 +330,53 @@
     margin: 0 12rem 0 0;
   }
 }
+.footer {
+  text-align: center;
+  padding: 6rem 0 3rem;
+}
+@media screen and (min-width: 500px) {
+  .footer {
+    padding: 6rem 0;
+  }
+}
+.footer__content {
+  display: flex;
+  justify-content: center;
+  padding: 3rem 0;
+}
+.footer__content__link__logo {
+  height: 4rem;
+}
+
+.backToTop {
+  position: fixed;
+  bottom: 4rem;
+  right: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5.5rem;
+  width: 5.5rem;
+  background-color: #ff3258;
+  border-radius: 50%;
+  z-index: 10;
+  visibility: hidden;
+  transition: all 0.4s;
+}
+@media screen and (max-width: 900px) {
+  .backToTop {
+    right: 2rem;
+  }
+}
+@media screen and (max-width: 500px) {
+  .backToTop {
+    right: 1rem;
+  }
+}
+.backToTop__image {
+  height: 70%;
+}
+
 /* --------------------------------------- */
 /* ----- Basic Setup ----- */
 /* --------------------------------------- */
