@@ -40,6 +40,9 @@ export default function Portfolio() {
                                     className="portfolio__project__picture__data"
                                     alt={data.project}
                                 />
+                                <div className="portfolio__project__picture__info">
+                                    <p>{data.info}</p>
+                                </div>
                             </div>
                         </div>
                     ))}

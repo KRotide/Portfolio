@@ -90,6 +90,7 @@
         }
 
         &__picture {
+            position: relative;
             margin-bottom: $gutter-normal;
             border-radius: 3rem;
             box-shadow: rgba(255, 255, 255, 0.45) 0px 25px 20px -20px;
@@ -99,8 +100,29 @@
                 margin: 0 0 0 10rem;
             }
 
+            &:hover {
+                .portfolio__project__picture__info {
+                  opacity: 1;
+                  transform: translateY(-50%);
+                }
+              }
+
             &__data {
                 border-radius: 3rem;
+                transition: 0.4s ease-in-out;
+
+                &:hover {
+                    filter: brightness(20%);
+                }
+            }
+
+            &__info {
+                position: absolute;
+                top: 50%;
+                margin: 0 10%;
+                transition: 0.4s ease-in-out;
+                opacity: 0;
+                pointer-events: none;
             }
         }
     }
