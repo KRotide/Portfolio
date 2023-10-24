@@ -26,6 +26,10 @@
             @media screen and (max-width: 500px) {
                 margin-right: $gutter-normal;
             }
+
+            @media screen and (max-width: 355px) {
+                margin-right: $gutter-tiny;
+            }
         }
 
         &__link {

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk&family=Jost&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kurale&family=Kaushan+Script&display=swap');
 
 @import "./utils/variables";
 
@@ -36,7 +36,7 @@ html {
 
 body {
     font-size: $font-size-small;
-    font-family: 'Hk Grotesk', sans-serif;
+    font-family: 'Kurale', serif;
     font-weight: 400;
     color: $white-1;
     line-height: $line-height-normal;
@@ -82,7 +82,7 @@ img {
 h1,
 h2,
 h3 {
-    font-family: 'Jost', sans-serif;
+    font-family: 'Kaushan Script', cursive;
     font-weight: 400;
     line-height: $line-height-small;
     color: $white;
@@ -134,7 +134,7 @@ p {
 a {
     color: $white;
     font-weight: 400;
-    font-family: 'Jost', sans-serif;
+    font-family: 'Kaushan Script', cursive;
     transition: all .2s;
     outline: 2px solid transparent;
 }

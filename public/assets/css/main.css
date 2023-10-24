@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk&family=Jost&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kurale&family=Kaushan+Script&display=swap");
 .header {
   background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4)), url("../../assets/images/background.png");
   height: 100vh;
@@ -311,15 +311,30 @@
 .skills__logos__skill__logo {
   height: 6.5rem;
   max-width: 14rem;
+  opacity: 0;
+  transition: opacity 0.8s ease;
+}
+.skills__logos__skill__logo.show {
+  opacity: 1;
 }
 @media screen and (max-width: 1240px) {
   .skills__logos__skill__logo:not(:last-of-type) {
     margin-right: 6rem;
   }
 }
+.skills__logos__skill__logo:hover + span {
+  opacity: 1;
+  transform: rotateY(360deg);
+}
 .skills__logos__skill span {
   margin-top: 0.2rem;
   text-align: center;
+  opacity: 0;
+  transform: rotateY(0);
+  transition: opacity 0.4s ease, transform 1s ease-in-out;
+}
+.skills.show__logos__skill__logo {
+  opacity: 1;
 }
 
 .about__content {
@@ -486,7 +501,7 @@ html {
 
 body {
   font-size: 1.8rem;
-  font-family: "Hk Grotesk", sans-serif;
+  font-family: "Kurale", serif;
   font-weight: 400;
   color: rgba(229, 229, 230, 0.8549019608);
   line-height: 1.7;
@@ -535,7 +550,7 @@ img {
 h1,
 h2,
 h3 {
-  font-family: "Jost", sans-serif;
+  font-family: "Kaushan Script", cursive;
   font-weight: 400;
   line-height: 1.2;
   color: #f0e9f2;
@@ -583,7 +598,7 @@ p {
 a {
   color: #f0e9f2;
   font-weight: 400;
-  font-family: "Jost", sans-serif;
+  font-family: "Kaushan Script", cursive;
   transition: all 0.2s;
   outline: 2px solid transparent;
 }

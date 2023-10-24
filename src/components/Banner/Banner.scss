@@ -10,8 +10,10 @@
         & p {
             margin: 1.5rem 0 3.5rem;
             max-width: $container-medium-width;
-            font-family: 'Jost', sans-serif;
+            font-family: 'Kurale', serif;
             font-size: $font-size-medium;
+            opacity: 0;
+            transform: translateX(-100%);
 
             @media screen and (max-width: 500px) {
                 transform: scale(.8);
@@ -40,6 +42,7 @@
             color: inherit;
             border: 1px solid $pink;
             font-weight: 400;
+            opacity: 0;
 
             &:focus {
                 outline: none;
@@ -82,5 +85,68 @@
                 }
             }
         }
+    }
+}
+
+.meTyped {
+    animation: heartbeat 1s ease-in-out;
+    text-shadow: 0 0 10px rgba(255, 50, 88, 0.5),
+    0 0 20px rgba(255, 50, 88, 0.5),
+    0 0 30px rgba(255, 50, 88, 0.5),
+    0 0 40px rgba(255, 50, 88, 0.5),
+    0 0 50px rgba(255, 50, 88, 0.5);
+}
+
+.infoSlide {
+    animation: slideIn 2s ease forwards;
+}
+
+.showButton {
+    animation: tada 2s 2s forwards;
+}
+
+@keyframes heartbeat {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes slideIn {
+    0% {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes tada {
+    0% {
+        opacity: 1;
+        transform: scale(1);
+    }
+    10%, 20% {
+        opacity: 1;
+        transform: scale(0.9) rotate(-3deg);
+    }
+    30%, 50%, 70%, 90% {
+        opacity: 1;
+        transform: scale(1.1) rotate(3deg);
+    }
+    40%, 60%, 80% {
+        opacity: 1;
+        transform: scale(1.1) rotate(-3deg);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1) rotate(0);
     }
 }
