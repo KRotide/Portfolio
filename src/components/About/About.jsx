@@ -18,7 +18,7 @@ export default function About() {
                             J'adore relever des défis et trouver des solutions innovantes.
                         </p>
                         <p>
-                            Créer des sites web est pour moi une passion qui me pousse constamment à explorer de nouvelles
+                            Créer des sites web est pour moi un réel plaisir qui me pousse constamment à explorer de nouvelles
                             possibilités et à évoluer dans un univers en perpétuel changement.
                         </p>
                         <p>

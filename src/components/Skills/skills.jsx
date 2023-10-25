@@ -23,7 +23,7 @@ export default function Skills() {
                                 src={require(`../../assets/images/${data.logo}`)}
                                 className={`skills__logos__skill__logo ${inView ? 'show' : 'hidden'}`}
                                 alt={data.description}
-                                style={{ transitionDelay: `${data.id * .4}s` }}
+                                style={{ transitionDelay: `${data.id * .3}s` }}
                             />
                             <span>{data.title}</span>
                         </div>

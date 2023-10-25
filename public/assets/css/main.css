@@ -1,11 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Kurale&family=Kaushan+Script&display=swap");
 .header {
-  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4)), url("../../assets/images/background.png");
+  background: url("../../assets/images/background.jpg");
   height: 100vh;
-  background-size: cover;
   background-position: center;
   background-attachment: fixed;
   font-size: 2.2rem;
+  animation: move 50s linear infinite;
 }
 @media screen and (max-width: 500px) {
   .header {
@@ -13,6 +13,17 @@
   }
 }
 
+@keyframes move {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
 .nav__content {
   display: flex;
   justify-content: flex-end;
@@ -38,6 +49,11 @@
 @media screen and (max-width: 500px) {
   .nav__content__item:not(:last-child) {
     margin-right: 3rem;
+  }
+}
+@media screen and (max-width: 355px) {
+  .nav__content__item:not(:last-child) {
+    margin-right: 1rem;
   }
 }
 .nav__content__link {
@@ -76,8 +92,10 @@
 .banner__text p {
   margin: 1.5rem 0 3.5rem;
   max-width: 700px;
-  font-family: "Jost", sans-serif;
+  font-family: "Kurale", serif;
   font-size: 2.8rem;
+  opacity: 0;
+  transform: translateX(-100%);
 }
 @media screen and (max-width: 500px) {
   .banner__text p {
@@ -107,6 +125,7 @@
   color: inherit;
   border: 1px solid #ff3258;
   font-weight: 400;
+  opacity: 0;
 }
 .banner__text__btn:focus {
   outline: none;
@@ -142,6 +161,62 @@
   background: transparent;
 }
 
+.meTyped {
+  animation: heartbeat 1s ease-in-out;
+  text-shadow: 0 0 10px rgba(255, 50, 88, 0.5), 0 0 20px rgba(255, 50, 88, 0.5), 0 0 30px rgba(255, 50, 88, 0.5), 0 0 40px rgba(255, 50, 88, 0.5), 0 0 50px rgba(255, 50, 88, 0.5);
+}
+
+.infoSlide {
+  animation: slideIn 2s ease forwards;
+}
+
+.showButton {
+  animation: tada 2s 2s forwards;
+}
+
+@keyframes heartbeat {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes slideIn {
+  0% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+@keyframes tada {
+  0% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  10%, 20% {
+    opacity: 1;
+    transform: scale(0.9) rotate(-3deg);
+  }
+  30%, 50%, 70%, 90% {
+    opacity: 1;
+    transform: scale(1.1) rotate(3deg);
+  }
+  40%, 60%, 80% {
+    opacity: 1;
+    transform: scale(1.1) rotate(-3deg);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) rotate(0);
+  }
+}
 .portfolio__project {
   display: flex;
   align-items: center;
@@ -448,6 +523,9 @@
 }
 .footer__content__link__logo {
   height: 4rem;
+}
+.footer p {
+  margin: auto;
 }
 
 .backToTop {
