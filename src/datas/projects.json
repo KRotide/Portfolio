@@ -45,7 +45,7 @@
     {
         "id": "3",
         "title": "Kasa",
-        "description": "Site de location immobilière avec React",
+        "description": "Site de location immobilière",
         "languages": [
             "HTML",
             "CSS",
@@ -56,5 +56,20 @@
         "picture": "kasa.webp",
         "project": "Projet 8",
         "info": "Ce site a été entièrement reconstruit avec Create React App, incluant React Router et l'utilisation de SASS pour le style. Il bénéficie d'animations pour une expérience plus interactive. De plus, il comporte un système de carrousel et des éléments collapses qui peuvent être ouverts et fermés, améliorant ainsi la convivialité et la navigation."
+    },
+    {
+        "id": "4",
+        "title": "Argent Bank",
+        "description": "Site de banque en ligne",
+        "languages": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ],
+        "page": "",
+        "code": "https://github.com/KRotide/Projet_11",
+        "picture": "argentBank.webp",
+        "project": "Projet 11",
+        "info": "Ce site a été conçu avec React et Redux pour gérer l'état, une API pour les données, MongoDB pour le backend, et React Router pour la navigation. Des tests Postman ont été effectués garantissant la qualité et la performance. La sécurité de la connexion et de la déconnexion de l'utilisateur est assurée afin de protéger les données sensibles."
     }
 ]

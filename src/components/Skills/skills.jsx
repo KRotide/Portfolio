@@ -16,9 +16,9 @@ export default function Skills() {
         <section className="skills" id="Skills">
             <div className="row">
                 <h2>Compétences</h2>
-                <div className="skills__logos">
+                <div className="skills__logos" ref={ref}>
                     {datas.map((data) => (
-                        <div className="skills__logos__skill" key={data.id} ref={ref}>
+                        <div className="skills__logos__skill" key={data.id}>
                             <img
                                 src={require(`../../assets/images/${data.logo}`)}
                                 className={`skills__logos__skill__logo ${inView ? 'show' : 'hidden'}`}

@@ -61,7 +61,7 @@
                         }
                     }
 
-                    &:hover::after{
+                    &:hover::after {
                         right: 0;
                         background: $pink;
                     }
@@ -102,10 +102,39 @@
 
             &:hover {
                 .portfolio__project__picture__info {
-                  opacity: 1;
-                  transform: translateY(-50%);
+                    opacity: 1;
+                    transform: translateY(-50%);
+
+                    @media screen and (max-width: 470px) {
+                        margin: 0 4%;
+                    }
+
+                    & p {
+
+                        @media screen and (max-width: 900px) {
+                            max-width: inherit;
+                            font-size: $font-size-normal;
+                        }
+
+                        @media screen and (max-width: 630px) {
+                            max-width: 500px;
+                            font-size: $font-size-small;
+                        }
+
+                        @media screen and (max-width: 470px) {
+                            margin: 0;
+                        }
+
+                        @media screen and (max-width: 415px) {
+                            font-size: $font-size-tiny;
+                        }
+
+                        @media screen and (max-width: 346px) {
+                            font-size: 1rem;
+                        }
+                    }
                 }
-              }
+            }
 
             &__data {
                 border-radius: 3rem;
