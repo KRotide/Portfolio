@@ -3,9 +3,13 @@
         "id": "0",
         "title": "Booki",
         "description": "Page d'accueil d'une agence de voyage",
-        "languages": [
+        "technologies": [
+            "Découpage de maquette",
             "HTML",
-            "CSS"
+            "CSS",
+            "Flexbox",
+            "Responsive design",
+            "W3C"
         ],
         "page": "https://krotide.github.io/Projet_3/",
         "code": "https://github.com/KRotide/Projet_3",
@@ -17,9 +21,15 @@
         "id": "1",
         "title": "OhMyFood",
         "description": "Site de réservation de menus gastronomiques",
-        "languages": [
+        "technologies": [
+            "Découpage de maquette",
+            "Git & GitHub",
+            "Mobile First",
             "HTML",
-            "CSS"
+            "CSS",
+            "Animations CSS",
+            "Responsive design",
+            "W3C"
         ],
         "page": "https://krotide.github.io/Projet_4/",
         "code": "https://github.com/KRotide/Projet_4",
@@ -31,10 +41,17 @@
         "id": "2",
         "title": "Sophie Bluel",
         "description": "Portfolio d’une architecte d’intérieur",
-        "languages": [
+        "technologies": [
+            "Node.js",
+            "Git & GitHub",
+            "Swagger (API)",
+            "Postman",
             "HTML",
             "CSS",
-            "JavaScript"
+            "JavaScript",
+            "Fetch",
+            "JWT",
+            "Modale"
         ],
         "page": "",
         "code": "https://github.com/KRotide/Projet_6",
@@ -46,10 +63,20 @@
         "id": "3",
         "title": "Kasa",
         "description": "Site de location immobilière",
-        "languages": [
+        "technologies": [
+            "Node.js",
+            "Git & GitHub",
             "HTML",
             "CSS",
-            "JavaScript"
+            "Sass",
+            "JavaScript",
+            "React",
+            "Create React App",
+            "React Router",
+            "Collapses",
+            "Carrousel",
+            "Animations",
+            "Responsive design"
         ],
         "page": "https://krotide.github.io/Projet_8/",
         "code": "https://github.com/KRotide/Projet_8",
@@ -61,10 +88,24 @@
         "id": "4",
         "title": "Argent Bank",
         "description": "Site de banque en ligne",
-        "languages": [
+        "technologies": [
+            "Node.js",
+            "Git & GitHub",
+            "Swagger (API)",
+            "Postman",
+            "MongoDB",
             "HTML",
             "CSS",
-            "JavaScript"
+            "Sass",
+            "JavaScript",
+            "React",
+            "Create React App",
+            "React Router",
+            "Redux",
+            "Redux Toolkit",
+            "Redux-Thunk",
+            "Responsive design",
+            "Routes API modélisées côté backend (YAML)"
         ],
         "page": "",
         "code": "https://github.com/KRotide/Projet_11",

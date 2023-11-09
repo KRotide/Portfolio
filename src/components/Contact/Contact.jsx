@@ -17,7 +17,7 @@ export default function Contact() {
                         <br />
                         N'hésitez pas à me contacter 😊
                     </p>
-                    <a href="mailto:Cheepster38@hotmail.fr" className="contact__info__link">Cheepster38@hotmail.fr</a>
+                    <a href="mailto:carolineruiz3802@gmail.com" className="contact__info__link">carolineruiz3802@gmail.com</a>
                 </div>
             </div>
         </section>

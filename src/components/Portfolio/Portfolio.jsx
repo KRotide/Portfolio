@@ -15,8 +15,8 @@ export default function Portfolio() {
                                 <h3>{data.title}</h3>
                                 <p>{data.description}</p>
                                 <ul className="portfolio__project__text__list">
-                                    {data.languages.map((language, index) => (
-                                        <li key={index}>{language}</li>
+                                    {data.technologies.map((technology, index) => (
+                                        <li key={index}>{technology}</li>
                                     ))}
                                 </ul>
                                 <div className="portfolio__project__text__links">
