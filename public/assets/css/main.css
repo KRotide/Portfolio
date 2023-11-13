@@ -547,6 +547,11 @@
   border: 1px solid #ff3258;
   font-weight: 400;
 }
+@media screen and (max-width: 300px) {
+  .contact__info__link {
+    padding: 1rem 3.2rem;
+  }
+}
 .contact__info__link:focus {
   outline: none;
 }
@@ -580,6 +585,7 @@
   display: flex;
   justify-content: center;
   padding: 3rem 0;
+  gap: 2rem;
 }
 .footer__content__link__logo {
   height: 4rem;

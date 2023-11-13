@@ -1,24 +1,75 @@
 [
     {
         "id": "0",
-        "title": "Booki",
-        "description": "Page d'accueil d'une agence de voyage",
+        "title": "Argent Bank",
+        "description": "Site de banque en ligne",
         "technologies": [
-            "Découpage de maquette",
-            "HTML",
-            "CSS",
-            "Flexbox",
+            "Node",
+            "Git & GitHub",
+            "Swagger (API)",
+            "Postman",
+            "MongoDB",
+            "HTML & CSS (Sass)",
+            "JavaScript",
+            "React",
+            "Redux",
+            "Redux Toolkit",
+            "Redux-Thunk",
             "Responsive design",
-            "W3C"
+            "Documentation de endpoints d'API (YAML)"
         ],
-        "page": "https://krotide.github.io/Projet_3/",
-        "code": "https://github.com/KRotide/Projet_3",
-        "picture": "booki.webp",
-        "project": "Projet 3",
-        "info": "Ce site a été conçu à partir de maquettes Figma, utilisant Flexbox pour une mise en page flexible. Il est entièrement responsive et validé par W3C pour une expérience web de qualité."
+        "page": "",
+        "code": "https://github.com/KRotide/Projet_11",
+        "picture": "argentBank.webp",
+        "project": "Projet 11",
+        "info": "Ce site a été conçu avec React et Redux pour gérer l'état, une API pour les données, MongoDB pour le backend, et React Router pour la navigation. Des tests Postman ont été effectués garantissant la qualité et la performance. La sécurité de la connexion et de la déconnexion de l'utilisateur est assurée afin de protéger les données sensibles."
     },
     {
         "id": "1",
+        "title": "Kasa",
+        "description": "Site de location immobilière",
+        "technologies": [
+            "Node",
+            "Git & GitHub",
+            "HTML",
+            "CSS",
+            "Sass",
+            "JavaScript",
+            "React",
+            "Create React App",
+            "React Router",
+            "Animations",
+            "Responsive design"
+        ],
+        "page": "https://krotide.github.io/Projet_8/",
+        "code": "https://github.com/KRotide/Projet_8",
+        "picture": "kasa.webp",
+        "project": "Projet 8",
+        "info": "Ce site a été entièrement reconstruit avec Create React App, incluant React Router et l'utilisation de SASS pour le style. Il bénéficie d'animations pour une expérience plus interactive. De plus, il comporte un système de carrousel et des éléments collapses qui peuvent être ouverts et fermés, améliorant ainsi la convivialité et la navigation."
+    },
+    {
+        "id": "2",
+        "title": "Sophie Bluel",
+        "description": "Portfolio d’une architecte d’intérieur",
+        "technologies": [
+            "Node",
+            "Git & GitHub",
+            "Swagger (API)",
+            "Postman",
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Fetch",
+            "JWT"
+        ],
+        "page": "",
+        "code": "https://github.com/KRotide/Projet_6",
+        "picture": "sophieBluel.png",
+        "project": "Projet 6",
+        "info": "Ce site a été construit avec Node.js et npm pour le backend, utilisant Swagger pour l'API. Des tests ont été effectués avec Postman pour garantir une récupération de données fluide. L'appel de l'API se fait via Fetch. Principalement codé en JavaScript, il intègre des fenêtres modales pour une expérience utilisateur améliorée."
+    },
+    {
+        "id": "3",
         "title": "OhMyFood",
         "description": "Site de réservation de menus gastronomiques",
         "technologies": [
@@ -38,79 +89,21 @@
         "info": "Ce site a été conçu en suivant une approche mobile first. Il intègre des animations CSS modernes pour améliorer l'interaction utilisateur et rendre le site plus dynamique."
     },
     {
-        "id": "2",
-        "title": "Sophie Bluel",
-        "description": "Portfolio d’une architecte d’intérieur",
-        "technologies": [
-            "Node.js",
-            "Git & GitHub",
-            "Swagger (API)",
-            "Postman",
-            "HTML",
-            "CSS",
-            "JavaScript",
-            "Fetch",
-            "JWT",
-            "Modale"
-        ],
-        "page": "",
-        "code": "https://github.com/KRotide/Projet_6",
-        "picture": "sophieBluel.png",
-        "project": "Projet 6",
-        "info": "Ce site a été construit avec Node.js et npm pour le backend, utilisant Swagger pour l'API. Des tests ont été effectués avec Postman pour garantir une récupération de données fluide. L'appel de l'API se fait via Fetch. Principalement codé en JavaScript, il intègre des fenêtres modales pour une expérience utilisateur améliorée."
-    },
-    {
-        "id": "3",
-        "title": "Kasa",
-        "description": "Site de location immobilière",
-        "technologies": [
-            "Node.js",
-            "Git & GitHub",
-            "HTML",
-            "CSS",
-            "Sass",
-            "JavaScript",
-            "React",
-            "Create React App",
-            "React Router",
-            "Collapses",
-            "Carrousel",
-            "Animations",
-            "Responsive design"
-        ],
-        "page": "https://krotide.github.io/Projet_8/",
-        "code": "https://github.com/KRotide/Projet_8",
-        "picture": "kasa.webp",
-        "project": "Projet 8",
-        "info": "Ce site a été entièrement reconstruit avec Create React App, incluant React Router et l'utilisation de SASS pour le style. Il bénéficie d'animations pour une expérience plus interactive. De plus, il comporte un système de carrousel et des éléments collapses qui peuvent être ouverts et fermés, améliorant ainsi la convivialité et la navigation."
-    },
-    {
         "id": "4",
-        "title": "Argent Bank",
-        "description": "Site de banque en ligne",
+        "title": "Booki",
+        "description": "Page d'accueil d'une agence de voyage",
         "technologies": [
-            "Node.js",
-            "Git & GitHub",
-            "Swagger (API)",
-            "Postman",
-            "MongoDB",
+            "Découpage de maquette",
             "HTML",
             "CSS",
-            "Sass",
-            "JavaScript",
-            "React",
-            "Create React App",
-            "React Router",
-            "Redux",
-            "Redux Toolkit",
-            "Redux-Thunk",
+            "Flexbox",
             "Responsive design",
-            "Routes API modélisées côté backend (YAML)"
+            "W3C"
         ],
-        "page": "",
-        "code": "https://github.com/KRotide/Projet_11",
-        "picture": "argentBank.webp",
-        "project": "Projet 11",
-        "info": "Ce site a été conçu avec React et Redux pour gérer l'état, une API pour les données, MongoDB pour le backend, et React Router pour la navigation. Des tests Postman ont été effectués garantissant la qualité et la performance. La sécurité de la connexion et de la déconnexion de l'utilisateur est assurée afin de protéger les données sensibles."
+        "page": "https://krotide.github.io/Projet_3/",
+        "code": "https://github.com/KRotide/Projet_3",
+        "picture": "booki.webp",
+        "project": "Projet 3",
+        "info": "Ce site a été conçu à partir de maquettes Figma, utilisant Flexbox pour une mise en page flexible. Il est entièrement responsive et validé par W3C pour une expérience web de qualité."
     }
 ]

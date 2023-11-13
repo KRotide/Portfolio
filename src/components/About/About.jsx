@@ -25,7 +25,7 @@ export default function About() {
                             Je suis impatiente de continuer ce voyage passionnant et de contribuer à des projets significatifs
                             qui repoussent les limites de la créativité et de la technologie.
                         </p>
-                        <a href="" className="about__content__text__link">Mon CV</a>
+                        <a href="https://drive.google.com/file/d/1mCBXQcAhCjWMx8Br0Ekk4Mu3Xhd9MMWu/view?usp=drive_link" className="about__content__text__link">Mon CV</a>
                     </div>
                     <div className="about__content__photo">
                         <img
