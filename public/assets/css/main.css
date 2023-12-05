@@ -1,7 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Kurale&family=Kaushan+Script&display=swap");
 .header {
-  background: url("../../assets/images/background.jpg");
+  background: url("../../assets/images/backgroundHeader.webp");
   height: 100vh;
+  background-size: auto 100%;
   background-position: center;
   background-attachment: fixed;
   font-size: 2.2rem;
@@ -387,6 +388,14 @@
   pointer-events: none;
 }
 
+.skills {
+  background: url(../../assets/images/backgroundHeader.webp);
+  height: 100%;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  overflow: hidden;
+}
 .skills__logos {
   display: grid;
   grid-template-columns: repeat(4, 23.1%);

@@ -9,7 +9,7 @@ export default function Contact() {
                         Si vous êtes intéressé par mon profil et que vous souhaitez
                         en savoir plus sur mes compétences et expériences,
                         <br />
-                        que vous recherchez une développeuse au sain de votre équipe/entreprise,
+                        que vous recherchez une développeuse au sein de votre équipe/entreprise,
                         <br />
                         ou simplement pour me poser des questions :
                         <br />

@@ -18,6 +18,11 @@
 
             &__logo {
                 height: 4rem;
+                transition: all .3s;
+
+                &:hover{
+                    transform: scale(1.2);
+                }
             }
         }
     }

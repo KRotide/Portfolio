@@ -1,6 +1,9 @@
 @import "../../sass/utils/variables";
 
 .about {
+    background: url('../../assets/images/background.webp');
+    background-position: center;
+    background-attachment: fixed;
 
     &__content {
         display: flex;
@@ -26,6 +29,7 @@
                 color: inherit;
                 border: 1px solid $pink;
                 font-weight: 400;
+                z-index: 0;
 
                 &:focus {
                     outline: none;

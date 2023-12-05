@@ -1,6 +1,9 @@
 @import "../../sass/utils/variables";
 
 .contact {
+    background: url('../../assets/images/backgroundSkillsContact.webp');
+    background-position: center;
+    background-attachment: fixed;
 
     &__info {
         max-width: $container-medium-width;
@@ -13,6 +16,7 @@
             color: inherit;
             border: 1px solid $pink;
             font-weight: 400;
+            z-index: 0;
 
             @media screen and (max-width: 300px) {
                 padding: 1rem 3.2rem;

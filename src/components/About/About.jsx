@@ -25,7 +25,7 @@ export default function About() {
                             Je suis impatiente de continuer ce voyage passionnant et de contribuer à des projets significatifs
                             qui repoussent les limites de la créativité et de la technologie.
                         </p>
-                        <a href="https://drive.google.com/file/d/1mCBXQcAhCjWMx8Br0Ekk4Mu3Xhd9MMWu/view?usp=sharing" className="about__content__text__link" target="_blank" rel="noreferrer">Mon CV</a>
+                        <a href="https://raw.githubusercontent.com/KRotide/CV/main/CV%20Caro%202023.pdf" className="about__content__text__link" target="_blank" rel="noreferrer">Mon CV</a>
                     </div>
                     <div className="about__content__photo">
                         <img

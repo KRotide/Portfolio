@@ -1,6 +1,9 @@
 @import "../../sass/utils/variables";
 
 .skills {
+    background: url('../../assets/images/backgroundSkillsContact.webp');
+    background-position: center;
+    background-attachment: fixed;
 
     &__logos {
         display: grid;
