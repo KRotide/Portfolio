@@ -1,6 +1,7 @@
 import React from "react";
 import datas from "../../datas/projects.json";
 import GitHubLogo from "../../assets/images/github.svg";
+import ProjectInProgress from "./ProjectInProgress";
 
 export default function Portfolio() {
 
@@ -9,6 +10,7 @@ export default function Portfolio() {
             <div className="row">
                 <h2>Portfolio</h2>
                 <div className="portfolio__projects">
+                    <ProjectInProgress />
                     {datas.map(data => (
                         <div className="portfolio__project" key={data.id}>
                             <div className="portfolio__project__text">
