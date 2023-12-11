@@ -14,7 +14,7 @@ npm install yarn
 
 ## Aperçu
 
-![Capture d'écran de la page web](https://ibb.co/6BFGNSX)
+![Capture d'écran de la page web](https://i.ibb.co/2ZH7syJ/Capture-d-cran-2023-12-11-100324.png)
 
 ## Installation et Utilisation
 
