@@ -412,6 +412,26 @@
   border-radius: 3rem;
   max-height: 347.88px;
 }
+@media screen and (max-width: 1340px) {
+  .portfolio__project__screenshot__data {
+    max-height: 320.69px;
+  }
+}
+@media screen and (max-width: 1240px) {
+  .portfolio__project__screenshot__data {
+    max-height: 280.48px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .portfolio__project__screenshot__data {
+    max-height: 215.27px;
+  }
+}
+@media screen and (max-width: 350px) {
+  .portfolio__project__screenshot__data {
+    max-height: 143.63px;
+  }
+}
 .portfolio__project__screenshot img {
   background-color: rgba(255, 255, 255, 0.1);
   width: 100%;
