@@ -21,7 +21,7 @@ export default function Footer() {
                         />
                     </a>
                     <a
-                        href="https://www.linkedin.com/in/caroline-ruiz-6842b71b3/"
+                        href="https://www.linkedin.com/in/carolineruiz"
                         className="footer__content__link"
                         title="Lien vers mon profil LinkedIn"
                         target="_blank"
